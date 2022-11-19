@@ -1,0 +1,31 @@
+/*Estoy probando colores y fuentes*/
+/*pagina https://purecss.io/*/
+h1{
+    color:red;
+    
+}
+p{
+    color: blueviolet;
+    font-size: 16pt;    
+    color: blue;
+}
+#primera-noticia{
+    color: green;
+    font-size: 16pt;
+}
+#segunda-noticia{
+    color: red;
+    font-size: 10pt;
+}
+
+.encabezado{
+    color: chartreuse;
+    font-size: 20pt;
+    text-transform: uppercase;
+}
+*.warning{
+ color: crimson;
+}
+.autor, .fecha, .ubicacion, h1{
+    text-decoration:underline;
+}

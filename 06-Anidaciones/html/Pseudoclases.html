@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CssPseudo Clases</title>
+    <style>/*https://www.w3schools.com/css/css_pseudo_classes.asp*/
+        *{
+            padding:0;
+            margin: 0;
+        }
+        .hover{
+            width:300px;
+            height:120px;
+            background-color:blanchedalmond;
+        }  
+        .hover:hover{/*se activa cuando el raton pasa por encima*/
+            background-color:rgb(235, 171, 75);
+        }      
+        .listado{
+            padding: 15px;
+            background-color:rgb(28, 96, 115);
+        }
+        .listado p:first-child {
+            color: white;
+        }
+        a:link{
+            color: darkred;
+        }
+        a:visited{
+            color:darkgoldenrod;
+        }
+        a:hover{
+            color: bisque;
+        }
+        a:active{
+            color: forestgreen;
+        }
+        
+        </style>
+        
+</head>
+<body>
+    <div class="hover">
+    <p>Reprehenderit sunt laboris exercitation veniam. Officia ullamco sunt elit est nostrud in tempor ad. Nulla dolor nulla esse do labore sit Lorem ut exercitation. Deserunt est Lorem aliqua sunt est sint ex incididunt. </p>
+    </div> 
+    <div class="listado"> 
+    <p>Parrafo 1</p>
+    <p>Parrafo 2</p>
+    <p>Parrafo 3</p>
+    <p>Parrafo 4</p>
+</div> 
+<div class="enlace"></div>
+<a href="https://www.google.com/" target="_blank" >Enlace de google</a>
+<a href="https://co.marca.com/claro/" target="_blank">Enlace trabajo</a>
+</body>
+</html>  

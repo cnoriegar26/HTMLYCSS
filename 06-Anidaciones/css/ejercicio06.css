@@ -1,0 +1,9 @@
+.frase::before{
+    content: "Pasa por encima";
+}
+.frase:hover::before{
+    content: "hecho";
+    
+    
+    
+}

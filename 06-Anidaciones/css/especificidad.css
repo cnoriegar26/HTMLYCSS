@@ -1,0 +1,17 @@
+/*(1, 0, 0) explicación de especificidad*/
+/*(1, 0, 0) toma la especificidad mayor*/
+/*(1, 0, 0)*/
+/*(1, 0, 0)*/
+#h1-id{
+    color:blueviolet;
+}
+.h1-class{
+    color: yellow;
+}
+h1{
+    color:green !important
+    /* EVITAR en la medidad posible el !important */;
+}
+p{
+    color:red;
+}
